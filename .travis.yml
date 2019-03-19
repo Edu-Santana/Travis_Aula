@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.6"
+
+script:
+  - py.test teste.py
+
+after script:
+notifications:
+  recipients:
+    - eduardo.santana@aluno.faculdadeimpacta.com.br
